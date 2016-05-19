@@ -1,0 +1,42 @@
+## Global git ignore file
+##
+## Ryan Holmes
+
+# Emacs backups
+*~
+
+## Latex
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.brf
+
+## Bibtex
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+*.fdb_latexmk
+
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.alg
+*.loa
+
+## beamer
+*.nav
+*.snm
+*.vrb
