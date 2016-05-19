@@ -1,5 +1,14 @@
 # ~/.bash_aliases: Custom aliases:
 
+# General commands ---------------------------------------------------
+alias ll='ls -alF'
+alias cm25='cd /g/data/gh5/access_cm_025-picontrol'
+
+# data paths ---------------------------------------------------------
+export nciCM="/g/data/gh5/"
+export ccrcDAT='/srv/ccrc/data46/z3500785'
+export nciDAT='/short/e14/rmh561'
+
 # ssh aliases: -------------------------------------------------------
 # RAIJIN:
 alias sshraijin='ssh -X rmh561@raijin.nci.org.au'
@@ -27,8 +36,5 @@ alias sftpmaths='sftp z3500785@matht265.maths.unsw.edu.au'
 export rsccrc='z3500785@ccrc175.ccrc.unsw.edu.au'
 export rsmaths='z3500785@matht265.maths.unsw.edu.au'
 
-# Paths:
-export ccrcDAT='/srv/ccrc/data46/z3500785'
-export nciDAT='/short/e14/rmh561'
 
 
