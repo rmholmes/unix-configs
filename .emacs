@@ -116,6 +116,10 @@
  python-shell-completion-string-code
    "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
 
+;; Set python path and path from shell, but only on non-windows systems:
+(if (not (string-equal system-type "windows-nt"))
+    (progn
+
 (defun set-python-path-from-shell-PYTHONPATH ()
   (let ((path-from-shell (shell-command-to-string "$SHELL -i -c 'echo $PYTHONPATH'")))
     (setenv "PYTHONPATH" path-from-shell)))
@@ -127,7 +131,7 @@
     (setenv "PATH" path-from-shell)
     (setq exec-path (split-string path-from-shell path-separator))))
 (set-exec-path-from-shell-PATH)
-
+))
 
 ;; Elpy: (needs ein, elpy, flycheck, py-autopep8 packages above)
 ;; (elpy-enable)
