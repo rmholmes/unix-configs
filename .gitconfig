@@ -1,8 +1,12 @@
+[gui]
+[gui]
+	recentrepo = C:/Users/Ryan Holmes/Research/Write_Ups/Kelvin_Waves_and_TIWs_2016HolmesJPO
 [user]
 	name = Ryan Holmes
 	email = holmes.ryan.m@gmail.com
 [core]
 	editor = emacs
+	excludesfile = C:/Users/Ryan Holmes/.gitignore_global
 [color]
 	ui = true
 [diff]
