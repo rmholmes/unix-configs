@@ -1,0 +1,11 @@
+[user]
+	name = Ryan Holmes
+	email = holmes.ryan.m@gmail.com
+[core]
+	editor = emacs
+[color]
+	ui = true
+[diff]
+	tool = tkdiff
+[difftool]
+	prompt = false
