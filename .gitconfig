@@ -3,6 +3,7 @@
 	email = holmes.ryan.m@gmail.com
 [core]
 	editor = emacs
+	excludesfile = /home/561/rmh561/.gitignore_global
 [color]
 	ui = true
 [diff]
