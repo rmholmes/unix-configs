@@ -7,6 +7,7 @@
 [core]
 	editor = emacs
 	excludesfile = C:/Users/Ryan Holmes/.gitignore_global
+	filemode = false
 [color]
 	ui = true
 [diff]
