@@ -4,6 +4,7 @@
 [core]
 	editor = emacs
 	excludesfile = /home/z3500785/.gitignore_global
+	filemode = false
 [color]
 	ui = true
 [diff]
