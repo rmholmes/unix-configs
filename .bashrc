@@ -1,4 +1,6 @@
 SSH_ENV=$HOME/.ssh/environment
+
+cd /mnt/c/Users/Ryan\ Holmes/
   
 # start the ssh-agent
 function start_agent {
