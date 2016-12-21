@@ -9,6 +9,9 @@ ltexdiff() {
     latexdiff $1 $2 > $3 && pdflatex $3 && pdflatex $3
 }
 
+# interactive raijin session:
+alias qint='qsub -I -l ncpus=1,mem=15GB,wd -q express -lsoftware=matlab_unsw -X'
+
 # data paths ---------------------------------------------------------
 export nciCM="/g/data/gh5"
 export ccrcDAT='/srv/ccrc/data03/z3500785'
