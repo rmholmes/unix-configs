@@ -10,9 +10,10 @@ ltexdiff() {
 }
 
 # data paths ---------------------------------------------------------
-export nciCM="/g/data/gh5/"
-export ccrcDAT='/srv/ccrc/data46/z3500785'
+export nciCM="/g/data/gh5"
+export ccrcDAT='/srv/ccrc/data03/z3500785'
 export nciDAT='/short/e14/rmh561'
+export nciGDAT='/g/data/e14/rmh561'
 
 # ssh aliases: -------------------------------------------------------
 # RAIJIN:
