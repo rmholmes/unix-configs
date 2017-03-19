@@ -12,6 +12,14 @@ ltexdiff() {
 # interactive raijin session:
 alias qint='qsub -I -l ncpus=1,mem=15GB,wd -q express -lsoftware=matlab_unsw -X'
 
+# interactive debugging raijin session:
+alias qdebug='qsub -I -l ncpus=16,mem=32GB,wd,walltime=02:00:00 -q express -lsoftware=totalview -lsoftware=valgrind -X'
+
+# Display multiple images with display:
+dispall() {
+   for i in "$@"; do display $i & done
+}
+
 # data paths ---------------------------------------------------------
 export nciCM="/g/data/gh5"
 export ccrcDAT='/srv/ccrc/data03/z3500785'
