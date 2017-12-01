@@ -61,7 +61,7 @@
 ;; ----------------------------------------------------------------------
 
 ;; Minor settings:
-(setq-default auto-fill-function 'do-auto-fill) ;; auto-fill-mode default
+;;(setq-default auto-fill-function 'do-auto-fill) ;; auto-fill-mode default
 (setq backup-inhibited t) ; disable backup
 ;; (setq auto-save-default nil) ; disable auto save
 (setq-default indent-tabs-mode nil) ; always use spaces, not tabs, when indenting
