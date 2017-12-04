@@ -13,3 +13,5 @@
 	prompt = false
 [push]
 	default = simple
+[alias]
+    wdiff = diff --color-words
