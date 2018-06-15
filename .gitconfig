@@ -9,3 +9,5 @@
 	tool = tkdiff
 [difftool]
 	prompt = false
+[http]
+	sslverify = false

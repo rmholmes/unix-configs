@@ -20,12 +20,18 @@ dispall() {
    for i in "$@"; do display $i & done
 }
 
+# Valgrind with ignores:
+
+alias valgrindig="valgrind --main-stacksize=200000000 --max-stackframe=200000000 --log-file='valgrind.out' --suppressions=/short/v45/nah599/more_home/mom-run-scheduler/valgrind_suppressions.txt"
+
+
 # data paths ---------------------------------------------------------
 export nciCM="/g/data/gh5"
 export ccrcDAT='/srv/ccrc/data03/z3500785'
 export nciDAT='/short/e14/rmh561'
 export nciGDAT='/g/data/e14/rmh561'
 export nciADAT='/g/data3/hh5/tmp/SAPEQ'
+export nciKAOM='/short/v45/kxs157/access-om2/archive/'
 
 # ssh aliases: -------------------------------------------------------
 # RAIJIN:
@@ -53,6 +59,5 @@ alias sftpmaths='sftp z3500785@matht265.maths.unsw.edu.au'
 
 export rsccrc='z3500785@ccrc175.ccrc.unsw.edu.au'
 export rsmaths='z3500785@matht265.maths.unsw.edu.au'
-
 
 
