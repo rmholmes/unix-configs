@@ -1,4 +1,6 @@
 SSH_ENV=$HOME/.ssh/environment
+
+cd /mnt/c/Users/Ryan\ Holmes/
   
 # start the ssh-agent
 function start_agent {
@@ -24,4 +26,8 @@ fi
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+# WSL:
+
+export DISPLAY=127.0.0.1:0.0
 

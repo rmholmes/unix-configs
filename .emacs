@@ -93,11 +93,11 @@
 ;; (setq LaTeX-command-style 
 ;;   '(("" "%(PDF)%(latex) -file-line-error %S%(PDFout)"))) ;; Funny error fix (depreciated?)
 
-;;Aspell (windows):
-;;(add-to-list 'exec-path "C:/Program Files (x86)/Aspell/bin/")
-;;(setq ispell-program-name "aspell")
-;;(setq ispell-personal-dictionary "~/.emacs.d/custom.ispell")
-;;(require 'ispell)
+;; Aspell (windows):
+(add-to-list 'exec-path "C:/Program Files (x86)/Aspell/bin/")
+(setq ispell-program-name "aspell")
+(setq ispell-personal-dictionary "~/.emacs.d/custom.ispell")
+(require 'ispell)
 
 ;; PYTHON: ------------------
 
