@@ -3,6 +3,8 @@
 	email = holmes.ryan.m@gmail.com
 [core]
 	editor = emacs
+	excludesfile = /home/z3500785/.gitignore_global
+	filemode = false
 [color]
 	ui = true
 [diff]
@@ -11,3 +13,5 @@
 	prompt = false
 [push]
 	default = simple
+[alias]
+    wdiff = diff --color-words
