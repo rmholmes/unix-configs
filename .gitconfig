@@ -19,3 +19,7 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[push]
+	default = simple
+[alias]
+    wdiff = diff --color-words

@@ -25,6 +25,7 @@
     matlab-mode
     auctex
     magit
+    ein
    ))
 ;; (unfortunately matlab-emacs isn't in ELPA)
 
@@ -61,7 +62,7 @@
 ;; ----------------------------------------------------------------------
 
 ;; Minor settings:
-(setq-default auto-fill-function 'do-auto-fill) ;; auto-fill-mode default
+;;(setq-default auto-fill-function 'do-auto-fill) ;; auto-fill-mode default
 (setq backup-inhibited t) ; disable backup
 ;; (setq auto-save-default nil) ; disable auto save
 (setq-default indent-tabs-mode nil) ; always use spaces, not tabs, when indenting
@@ -125,12 +126,12 @@
     (setenv "PYTHONPATH" path-from-shell)))
 
 ;; anaconda python:
-(defun set-exec-path-from-shell-PATH ()
-  (interactive)
-  (let ((path-from-shell (replace-regexp-in-string "^.*\n.*shell\n" "" (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'")))) 
-    (setenv "PATH" path-from-shell)
-    (setq exec-path (split-string path-from-shell path-separator))))
-(set-exec-path-from-shell-PATH)
+;; (defun set-exec-path-from-shell-PATH ()
+;;   (interactive)
+;;   (let ((path-from-shell (replace-regexp-in-string "^.*\n.*shell\n" "" (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'")))) 
+;;     (setenv "PATH" path-from-shell)
+;;     (setq exec-path (split-string path-from-shell path-separator))))
+;; (set-exec-path-from-shell-PATH)
 ))
 
 ;; Elpy: (needs ein, elpy, flycheck, py-autopep8 packages above)
