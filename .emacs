@@ -25,7 +25,6 @@
     matlab-mode
     auctex
     magit
-    ein
    ))
 ;; (unfortunately matlab-emacs isn't in ELPA)
 
