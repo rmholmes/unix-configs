@@ -40,3 +40,6 @@
 *.nav
 *.snm
 *.vrb
+
+## Dolphin
+*.directory
