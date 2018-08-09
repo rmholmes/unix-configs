@@ -11,7 +11,7 @@ ltexdiff() {
 
 # data paths ---------------------------------------------------------
 export nciCM="/g/data/gh5/"
-export ccrcDAT='/srv/ccrc/data46/z3500785'
+export ccrcDAT='/srv/ccrc/data03/z3500785'
 export nciDAT='/short/e14/rmh561'
 
 # ssh aliases: -------------------------------------------------------
@@ -40,6 +40,8 @@ alias sftpmaths='sftp z3500785@matht265.maths.unsw.edu.au'
 
 export rsccrc='z3500785@ccrc175.ccrc.unsw.edu.au'
 export rsmaths='z3500785@matht265.maths.unsw.edu.au'
+
+alias sshccrcLH='ssh -N -L localhost:8888:localhost:8888 z3500785@ccrc175.ccrc.unsw.edu.au'
 
 
 

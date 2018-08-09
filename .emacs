@@ -24,7 +24,8 @@
     material-theme
     matlab-mode
     auctex
-    magit
+    ;ein
+    ;magit
    ))
 ;; (unfortunately matlab-emacs isn't in ELPA)
 
@@ -35,6 +36,10 @@
       myPackages)
 ))
 
+;; tramp use ssh:
+(setq tramp-default-method "ssh")
+(setq ein:console-args '("--ssh" "z3500785@ccrc175.ccrc.unsw.edu.au"))
+
 ;;
 ;; APPEARENCE
 ;; ----------------------------------------------------------------------
@@ -43,7 +48,7 @@
 (when (require 'material-theme nil t) 
     (progn (load-theme 'material t))) ;; load material theme
 (global-linum-mode t) ;; enable line numbers globally
-(set-face-attribute 'default nil :height 90) ;; text size
+(set-face-attribute 'default nil :height 110) ;; text size
 (setq frame-title-format "%b") ;; put current buffer name in title bar
 ;; (set-background-color "black") ;; Background color
 ;; (set-foreground-color "white") ;; Foreground color

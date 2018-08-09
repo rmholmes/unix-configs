@@ -7,10 +7,12 @@
 [core]
 	editor = emacs
 	excludesfile = C:/Users/Ryan Holmes/.gitignore_global
-	filemode = false
+	Filemode = False
 [color]
 	ui = true
 [diff]
 	tool = tkdiff
 [difftool]
 	prompt = false
+[push]
+	default = simple
