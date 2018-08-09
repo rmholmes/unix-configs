@@ -2,7 +2,7 @@ SSH_ENV=$HOME/.ssh/environment
 
 cd /mnt/c/Users/Ryan\ Holmes/
 source .bashrc
- 
+
 # start the ssh-agent
 function start_agent {
     echo "Initializing new SSH agent..."
@@ -33,3 +33,4 @@ export DISPLAY=127.0.0.1:0.0
 # Install Ruby Gems to ~/gems
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
+

@@ -7,12 +7,19 @@
 [core]
 	editor = emacs
 	excludesfile = C:/Users/Ryan Holmes/.gitignore_global
-	Filemode = False
+	filemode = False
 [color]
 	ui = true
 [diff]
 	tool = tkdiff
 [difftool]
 	prompt = false
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
 [push]
 	default = simple
+[alias]
+        wdiff = diff --color-words
