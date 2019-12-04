@@ -18,8 +18,11 @@ export nciDAT='/short/e14/rmh561'
 # RAIJIN:
 alias sshraijin='ssh -X rmh561@raijin.nci.org.au'
 alias sftpraijin='sftp rmh561@raijin.nci.org.au'
+alias sshgadi='ssh -X rmh561@gadi.nci.org.au'
+alias sftpgadi='sftp rmh561@gadi.nci.org.au'
 
 export rsraijin='rmh561@raijin.nci.org.au'
+export rsgadi='rmh561@gadi.nci.org.au'
 
 # CCRC Storm Servers:
 alias sshmaelstrom='ssh -X z3500785@maelstrom.ccrc.unsw.edu.au'
