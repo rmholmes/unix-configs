@@ -5,6 +5,7 @@
 	editor = emacs
 	excludesfile = /home/z3500785/.gitignore_global
 	filemode = false
+	autocrlf = true
 [color]
 	ui = true
 [diff]
