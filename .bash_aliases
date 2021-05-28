@@ -44,5 +44,8 @@ alias sftpmaths='sftp z3500785@matht265.maths.unsw.edu.au'
 export rsccrc='z3500785@ccrc175.ccrc.unsw.edu.au'
 export rsmaths='z3500785@matht265.maths.unsw.edu.au'
 
-
+# Gadi jupyter script:
+alias gadj8='/home/z3500785/Cloud/Research/Utilities/python/nci_scripts/gadi_jupyter -l rmh561 -n 8 -m 64GB -t 06:00:00' 
+alias gadj2='/home/z3500785/Cloud/Research/Utilities/python/nci_scripts/gadi_jupyter -l rmh561 -n 2 -m 16GB -t 06:00:00' 
+alias gadj28='/home/z3500785/Cloud/Research/Utilities/python/nci_scripts/gadi_jupyter -l rmh561 -n 28 -m 256GB -t 06:00:00'
 
